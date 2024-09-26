@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-25T16:46:11 IST" name="Default suite" finished-at="2024-09-25T16:46:25 IST" duration-ms="13830">
+  <suite started-at="2024-09-26T18:44:53 IST" name="Suite" finished-at="2024-09-26T18:45:55 IST" duration-ms="62509">
     <groups>
     </groups>
-    <test started-at="2024-09-25T16:46:11 IST" name="Default test" finished-at="2024-09-25T16:46:25 IST" duration-ms="13830">
-      <class name="testcases.TC_003_CreateAccountPage">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC_003_CreateAccountPage@741a8937]" started-at="2024-09-25T16:46:11 IST" name="preCondition" finished-at="2024-09-25T16:46:20 IST" duration-ms="8494" status="PASS">
+    <test started-at="2024-09-26T18:44:53 IST" name="Test" finished-at="2024-09-26T18:45:55 IST" duration-ms="62509">
+      <class name="testcases.TC_001_LoginPage">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC_001_LoginPage@4c1909a3]" started-at="2024-09-26T18:44:53 IST" name="preCondition" finished-at="2024-09-26T18:45:43 IST" duration-ms="50542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="runCreateAccount()[pri:0, instance:testcases.TC_003_CreateAccountPage@741a8937]" started-at="2024-09-25T16:46:20 IST" name="runCreateAccount" finished-at="2024-09-25T16:46:25 IST" duration-ms="5050" status="PASS">
+        <test-method signature="runLoginPage()[pri:0, instance:testcases.TC_001_LoginPage@4c1909a3]" started-at="2024-09-26T18:45:43 IST" name="runLoginPage" finished-at="2024-09-26T18:45:52 IST" duration-ms="8651" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runCreateAccount -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC_003_CreateAccountPage@741a8937]" started-at="2024-09-25T16:46:25 IST" name="postCondition" finished-at="2024-09-25T16:46:25 IST" duration-ms="227" status="PASS">
+        </test-method> <!-- runLoginPage -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC_001_LoginPage@4c1909a3]" started-at="2024-09-26T18:45:52 IST" name="postCondition" finished-at="2024-09-26T18:45:55 IST" duration-ms="2692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- testcases.TC_003_CreateAccountPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testcases.TC_001_LoginPage -->
+      <class name="testcases.TC_002_Logout">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC_002_Logout@306e95ec]" started-at="2024-09-26T18:44:53 IST" name="preCondition" finished-at="2024-09-26T18:45:43 IST" duration-ms="50542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="logoutRun()[pri:0, instance:testcases.TC_002_Logout@306e95ec]" started-at="2024-09-26T18:45:43 IST" name="logoutRun" finished-at="2024-09-26T18:45:55 IST" duration-ms="11646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutRun -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC_002_Logout@306e95ec]" started-at="2024-09-26T18:45:55 IST" name="postCondition" finished-at="2024-09-26T18:45:55 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC_002_Logout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
