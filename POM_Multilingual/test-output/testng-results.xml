@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-29T20:50:42 IST" name="Suite" finished-at="2024-09-29T20:51:09 IST" duration-ms="26883">
+    <groups>
+    </groups>
+    <test started-at="2024-09-29T20:50:42 IST" name="Test" finished-at="2024-09-29T20:50:56 IST" duration-ms="14059">
+      <class name="testcases.TC_003_CreateAccountPage">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:testcases.TC_003_CreateAccountPage@209da20d]" started-at="2024-09-29T20:50:42 IST" name="preCondition" finished-at="2024-09-29T20:50:51 IST" duration-ms="8656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreateAccount()[pri:0, instance:testcases.TC_003_CreateAccountPage@209da20d]" started-at="2024-09-29T20:50:51 IST" name="runCreateAccount" finished-at="2024-09-29T20:50:56 IST" duration-ms="5175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateAccount -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC_003_CreateAccountPage@209da20d]" started-at="2024-09-29T20:50:56 IST" name="postCondition" finished-at="2024-09-29T20:50:56 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC_003_CreateAccountPage -->
+    </test> <!-- Test -->
+    <test started-at="2024-09-29T20:50:56 IST" name="Test2" finished-at="2024-09-29T20:51:09 IST" duration-ms="12712">
+      <class name="testcases.TC_003_CreateAccountPage">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:testcases.TC_003_CreateAccountPage@41a0aa7d]" started-at="2024-09-29T20:50:56 IST" name="preCondition" finished-at="2024-09-29T20:51:03 IST" duration-ms="6531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[French]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreateAccount()[pri:0, instance:testcases.TC_003_CreateAccountPage@41a0aa7d]" started-at="2024-09-29T20:51:03 IST" name="runCreateAccount" finished-at="2024-09-29T20:51:08 IST" duration-ms="5532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateAccount -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC_003_CreateAccountPage@41a0aa7d]" started-at="2024-09-29T20:51:08 IST" name="postCondition" finished-at="2024-09-29T20:51:09 IST" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC_003_CreateAccountPage -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

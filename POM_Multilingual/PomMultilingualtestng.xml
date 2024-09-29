@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite" verbose="5">
+  <test name="Test">
+	<parameter name="langFile" value="English"></parameter>
+    <classes>
+      <class name="testcases.TC_003_CreateAccountPage"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+	<parameter name="langFile" value="French"></parameter>
+    <classes>
+      <class name="testcases.TC_003_CreateAccountPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

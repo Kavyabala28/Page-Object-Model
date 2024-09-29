@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <test thread-count="5" parallel="classes" name="Test(failed)" verbose="5">
+    <parameter name="langFile" value="English"/>
+    <classes>
+      <class name="testcases.TC_003_CreateAccountPage">
+        <methods>
+          <include name="preCondition"/>
+          <include name="runCreateAccount"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- testcases.TC_003_CreateAccountPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" parallel="classes" name="Test2(failed)" verbose="5">
+    <parameter name="langFile" value="French"/>
+    <classes>
+      <class name="testcases.TC_003_CreateAccountPage">
+        <methods>
+          <include name="preCondition"/>
+          <include name="runCreateAccount"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- testcases.TC_003_CreateAccountPage -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
