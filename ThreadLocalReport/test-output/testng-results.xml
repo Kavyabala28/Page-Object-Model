@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-10T20:40:44 IST" name="Default suite" finished-at="2024-10-10T20:41:41 IST" duration-ms="56914">
+    <groups>
+    </groups>
+    <test started-at="2024-10-10T20:40:44 IST" name="Default test" finished-at="2024-10-10T20:41:41 IST" duration-ms="56914">
+      <class name="testcases.TC_001_LoginPage">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testcases.TC_001_LoginPage@41a0aa7d]" started-at="2024-10-10T20:40:43 IST" name="startReport" finished-at="2024-10-10T20:40:44 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.TC_001_LoginPage@41a0aa7d]" started-at="2024-10-10T20:40:44 IST" name="setData" finished-at="2024-10-10T20:40:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="setReport()[pri:0, instance:testcases.TC_001_LoginPage@41a0aa7d]" started-at="2024-10-10T20:40:44 IST" name="setReport" finished-at="2024-10-10T20:40:44 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC_001_LoginPage@41a0aa7d]" started-at="2024-10-10T20:40:44 IST" name="preCondition" finished-at="2024-10-10T20:41:06 IST" duration-ms="22685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreateLead()[pri:0, instance:testcases.TC_001_LoginPage@41a0aa7d]" started-at="2024-10-10T20:41:06 IST" name="runCreateLead" finished-at="2024-10-10T20:41:40 IST" duration-ms="33812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC_001_LoginPage@41a0aa7d]" started-at="2024-10-10T20:41:40 IST" name="postCondition" finished-at="2024-10-10T20:41:41 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testcases.TC_001_LoginPage@41a0aa7d]" started-at="2024-10-10T20:41:41 IST" name="endReport" finished-at="2024-10-10T20:41:42 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.TC_001_LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
