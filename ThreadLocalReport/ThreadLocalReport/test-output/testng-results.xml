@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-24T13:17:22 IST" name="Default suite" finished-at="2024-10-24T13:18:10 IST" duration-ms="48240">
+    <groups>
+    </groups>
+    <test started-at="2024-10-24T13:17:22 IST" name="Default test" finished-at="2024-10-24T13:18:10 IST" duration-ms="48240">
+      <class name="testcases.TC_002_CreateLeadPage">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testcases.TC_002_CreateLeadPage@8f2ef19]" started-at="2024-10-24T13:17:21 IST" name="startReport" finished-at="2024-10-24T13:17:22 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.TC_002_CreateLeadPage@8f2ef19]" started-at="2024-10-24T13:17:22 IST" name="setData" finished-at="2024-10-24T13:17:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="setReport()[pri:0, instance:testcases.TC_002_CreateLeadPage@8f2ef19]" started-at="2024-10-24T13:17:22 IST" name="setReport" finished-at="2024-10-24T13:17:22 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC_002_CreateLeadPage@8f2ef19]" started-at="2024-10-24T13:17:23 IST" name="preCondition" finished-at="2024-10-24T13:17:43 IST" duration-ms="20473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreateLeadPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_002_CreateLeadPage@8f2ef19]" started-at="2024-10-24T13:17:43 IST" name="runCreateLeadPage" data-provider="data" finished-at="2024-10-24T13:17:52 IST" duration-ms="9189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Joseph]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLeadPage -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC_002_CreateLeadPage@8f2ef19]" started-at="2024-10-24T13:17:53 IST" name="postCondition" finished-at="2024-10-24T13:17:53 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC_002_CreateLeadPage@8f2ef19]" started-at="2024-10-24T13:17:53 IST" name="preCondition" finished-at="2024-10-24T13:18:00 IST" duration-ms="6867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreateLeadPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_002_CreateLeadPage@8f2ef19]" started-at="2024-10-24T13:18:00 IST" name="runCreateLeadPage" data-provider="data" finished-at="2024-10-24T13:18:10 IST" duration-ms="10271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kevin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Joy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLeadPage -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC_002_CreateLeadPage@8f2ef19]" started-at="2024-10-24T13:18:10 IST" name="postCondition" finished-at="2024-10-24T13:18:10 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testcases.TC_002_CreateLeadPage@8f2ef19]" started-at="2024-10-24T13:18:10 IST" name="endReport" finished-at="2024-10-24T13:18:11 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.TC_002_CreateLeadPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
